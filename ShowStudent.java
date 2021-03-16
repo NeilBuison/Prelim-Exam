@@ -32,5 +32,36 @@ s3.showPoints();
 
 System.out.println("The student's grade point average is "+ s3.getGradePoint());
 System.out.println(" ");
+
+public void setIDnumber()
+{
+StudentID += 1;
+IDnumber=StudentID;
+}
+ 
+public int getIDnumber()
+{
+return IDnumber;
+}
+ 
+public void setCredits(int Number)
+{
+hours = Number;
+}
+ 
+public int getCredits()
+{
+return Credits;
+}
+ 
+public void setPoints(int Number)
+{
+points = Number;
+}
+ 
+public int getPoints()
+{
+return Points;
+}
 }
 }
